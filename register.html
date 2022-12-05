@@ -1,0 +1,111 @@
+<html>
+  <link rel="stylesheet" href="bdc.css">
+  <head>
+    <style>
+      body{
+        background-color: lightpink;
+        margin-left: 50px;
+      }
+    </style>
+  </head>
+<body>
+  <ul class='menubar'>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about us.html">About us</a></li>
+    <li><a href="workings.html">Our workings</a></li> 
+    <li><a href=" About donation.html">About Donation</a>
+    <ul class="drpdwn">
+    <li><a href="why give blood.html">Why give blood?</a></li>
+    <li><a href="who can give blood.html">Who can give blood?</a></li>
+    </ul>
+    </li>
+    <li><a href="Donate blood.html">Donate Blood</a>
+    <ul class="drpdwn_survey">
+    <li><a href="register.html">fill form</a></li>
+    <li><a href="survey.html">answer survey</a></li>
+    </ul>
+    </li>
+    <li><a href="joinUs.html"> Join us</a>
+    <ul class="drpdwn_volunteer">
+    <li><a href="volunteer form.html">Volunteer Form</a></li>
+    </ul>
+    </li>
+    <li><a href="contact.html">contact us</a></li>
+    </ul>
+  
+
+
+<div class="container">
+    <h1>Registration Form </h1>
+    <form name="registration" class="registartion-form" onsubmit="return formValidation()">
+      <table>
+        <tr>
+          <td><label for="name">Name:</label></td>
+          <td><input type="text" name="name" id="name" placeholder="your name" required>
+        <br>
+        <br>
+    </td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Email:</label></td>
+          <td><input type="text" name="email" id="email" placeholder="your email" required><br>
+            <br></td>
+        </tr>
+
+        <tr>
+          <label for="birthday">Birthday:<input type="date" name="birthday" required></label></br></br>
+          </tr>
+        
+        <tr>
+          <td><label for="phoneNumber">Phone Number:</label></td>
+          <td><input type="number" name="phoneNumber" id="phoneNumber" required><br>
+            <br></td>
+        </tr>
+
+        <tr>
+          <td><label for="gender" >Gender:</label></td>
+          <td>Male: <input type="radio" name="gender" value="male">
+            Female: <input type="radio" name="gender" value="female">
+            Other: <input type="radio" name="gender" value="other"><br>
+            <br></td>
+        </tr>
+
+        <tr>
+            <td><label for="City">City:</label></td>
+            <td><input type="text" name="City" id="City" placeholder="your City"><br>
+                <br></td>
+          </tr>
+       
+          <tr>
+            <td><label for="State">State:</label></td>
+            <td><input type="text" name="State" id="State" placeholder="your State"><br>
+                <br></td>
+          </tr>
+
+          <tr>
+            <td><label for="District">District:</label></td>
+            <td><input type="text" name="District" id="District" placeholder="your District"><br>
+                <br></td>
+          </tr>
+
+        <tr>
+          <td><label for="pincode">Pin Code:</label></td>
+          <td><input type="" name="pincode" id="pincode"><br>
+            <br></td>
+        </tr>
+        
+        <tr>
+          <td><label for="about">Address:</label></td>
+          <td><textarea name="address" id="about" placeholder="Write your address"></textarea><br>
+            <br></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="submit" class="submit" value="Register" /></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+ 
+</body>
+</html>

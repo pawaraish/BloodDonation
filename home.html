@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="bdc.css">
+  <style>
+    body{
+      background-color: lightcoral;
+      margin-left: 5px;
+      
+    }
+    img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+ margin-left: 50px;
+}
+h2{
+  text-align: center;
+}
+  </style>
+    <body>
+
+      <ul class='menubar'>
+        <li><a href="home.html">Home</a>
+        <li><a href="about us.html">About us</a>
+        <li><a href="workings.html">Our workings</a> 
+        <li><a href=" About donation.html">About Donation</a>
+        <ul class="drpdwn">
+        <li><a href="why give blood.html">Why give blood?</a></li>
+        <li><a href="who can give blood.html">Who can give blood?</a></li>
+        </ul>
+      
+        <li><a href="Donate blood.html">Donate Blood</a>
+        <ul class="drpdwn_survey">
+        <li><a href="register.html">fill form</a></li>
+        <li><a href="survey.html">answer survey</a></li>
+        </ul>
+       
+        <li><a href="joinUs.html"> Join us</a>
+        <ul class="drpdwn_volunteer">
+        <li><a href="volunteer form.html">Volunteer Form</a></li>
+        </ul>
+      
+
+    
+       <li> <a href="contact.html">contact us</a></li>
+        </ul>
+        
+        
+
+        <h2><b>BLOOD DONATION CAMP</b></h2>
+        
+        
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="C:\Users\Vinod\Downloads\wt\BD1.jpg" style="width:60%" height="300">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="C:\Users\Vinod\Downloads\wt\BD.jpg" style="width:60%" height="300">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext"></div>
+          <img src="C:\Users\Vinod\Downloads\wt\bd c.jpg" style="width:60%" height="300">
+        
+         
+        </div>
+        <p ><h1> “You Can’t Buy A Life For Someone With Money, But You Can Save A Life Of Someone By Donating Blood To Him.”</p><h1></p>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+        
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+          
+        </div>

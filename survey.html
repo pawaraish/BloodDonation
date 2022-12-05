@@ -1,0 +1,88 @@
+<html>
+    <link rel="stylesheet" href="bdc.css">
+    <head>
+        <style>
+            body{
+                background-color: lightskyblue;
+                margin-left: 50px;
+            }
+        </style>
+    </head>
+<body>
+    <ul class='menubar'>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about us.html">About us</a></li>
+        <li><a href="workings.html">Our workings</a></li> 
+        <li><a href=" About donation.html">About Donation</a>
+        <ul class="drpdwn">
+        <li><a href="why give blood.html">Why give blood?</a></li>
+        <li><a href="who can give blood.html">Who can give blood?</a></li>
+        </ul>
+        </li>
+        <li><a href="Donate blood.html">Donate Blood</a>
+        <ul class="drpdwn_survey">
+        <li><a href="register.html">fill form</a></li>
+        <li><a href="survey.html">answer survey</a></li>
+        </ul>
+        </li>
+        <li><a href="joinUs.html"> Join us</a>
+        <ul class="drpdwn_volunteer">
+        <li><a href="volunteer form.html">Volunteer Form</a></li>
+        </ul>
+        </li>
+        <li><a href="contact.html">contact us</a></li>
+        </ul>
+        
+<h1>Survey Form</h2>
+<h2>Answer the survey given below:</h2>
+<form action="checkbox.php" method="post">
+<p>Have you ever donated blood before?</p>
+<input type='checkbox' value='yes'name='chk1[]' >
+<label>Yes</label>
+<input type='checkbox' value='no'name='chk1[]'>
+<label>No</label>
+<br>
+<p>What is your age group?</p>
+<input type="checkbox" value='18-25' name='chk1[]'>
+<label >18-25</label><br>
+<input type="checkbox" value='26-35' name='chk1[]'>
+<label>26-35</label><br>
+<input type="checkbox" value='36-47' name='chk1[]'>
+<label >36-47</label><br>
+<input type="checkbox" value='48-65' name='chk1[]'>
+<label >48-65</label><br>
+<br>
+<fieldset>
+<legend>Any disease?</legend>
+Select if you have any:<br>
+<input type="checkbox" value='diabetes' name='chk1[]'>
+<label>Diabetes</label><br>
+<input type="checkbox" value='heart disease' name='chk1[]'>
+<label>Heart disease</label><br>
+<input type="checkbox" value='cholestrol' name='chk1[]'>
+<label>Cholestrol</label><br>
+<input type="checkbox" value='cancer' name='chk1[]'>
+<label>Cancer</label><br>
+<input type="checkbox" value='tuberculosis' name='chk1[]'>
+<label>Tuberculosis</label>
+<br>
+<lable>If any other(specify): </label>
+<input type='text' name='test'>
+</fieldset>
+<br>
+<p>Your blood group?</p>
+<input type="checkbox" value='a' name='chk1[]'>
+<label>A</label>
+<input type="checkbox" value='b' name='chk1[]'>
+<label>B</label>
+<input type="checkbox" value='o' name='chk1[]'>
+<label>O</label>
+<input type="checkbox" value='ab' name='chk1[]'>
+<label>AB</label>
+<br><br>
+
+<input type='submit' value="Submit" name="submit">
+<input type='reset' value="Cancel"><br>
+</form>
+</body>
+</html>
